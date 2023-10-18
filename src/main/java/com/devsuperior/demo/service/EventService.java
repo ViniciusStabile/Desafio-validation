@@ -11,6 +11,7 @@ import org.springframework.transaction.annotation.Transactional;
 import com.devsuperior.demo.dto.EventDTO;
 import com.devsuperior.demo.entities.Event;
 import com.devsuperior.demo.repository.EventRepository;
+import com.devsuperior.demo.service.exception.ResourceNotFoundException;
 
 @Service
 public class EventService {
